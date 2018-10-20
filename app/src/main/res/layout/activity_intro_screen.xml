@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".IntroScreen">
+<agency.tango.materialintroscreen.parallax.ParallaxFrameLayout
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        app:layout_parallaxFactor="0.6" />
+</agency.tango.materialintroscreen.parallax.ParallaxFrameLayout>
+
+    <TextView
+        android:id="@+id/care"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car.e"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Your wheels, our hands!"
+        android:textAlignment="center"
+        app:layout_constraintVertical_bias="0.03"
+        app:layout_constraintTop_toBottomOf="@id/care"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

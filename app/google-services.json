@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "67857827046",
+    "firebase_url": "https://care-7e841.firebaseio.com",
+    "project_id": "care-7e841",
+    "storage_bucket": "care-7e841.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67857827046:android:6200d223bd8f4418",
+        "android_client_info": {
+          "package_name": "com.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67857827046-pal5ggtsnva2pcruia812g6lut1uruiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EpQ9AHt4fY8GnhWDOdeqgzgpDyKgaTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67857827046:android:ff63aac7ae99d9fd",
+        "android_client_info": {
+          "package_name": "e.car.com.care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67857827046-q5sg4kvb72p8nkme2jcrvvjnkql6gf0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "e.car.com.care",
+            "certificate_hash": "781af5eaabe3841f8a6c5f557ff5926de423e7ba"
+          }
+        },
+        {
+          "client_id": "67857827046-pal5ggtsnva2pcruia812g6lut1uruiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2EpQ9AHt4fY8GnhWDOdeqgzgpDyKgaTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67857827046-pal5ggtsnva2pcruia812g6lut1uruiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
